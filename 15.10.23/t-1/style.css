@@ -1,0 +1,252 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 40px;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+
+#food {
+  background-color: #f4fafb;
+}
+#food .box h1 {
+  font-weight: 700;
+  font-size: 68px;
+  margin-right: 80px;
+}
+#food .box span {
+  color: #37b7c3;
+}
+#food .box h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#food .box .btn {
+  padding: 13px 30px;
+  font-size: 20px;
+  background-color: #38b6c1;
+  color: white;
+  border-radius: 5px;
+}
+#food .box .imgbox {
+  width: 120px;
+  margin: 20px 0 10px;
+}
+#food .box h4 {
+  font-size: 20px;
+}
+
+#thehome {
+  background-color: #f1f8f9;
+}
+#thehome .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+  width: 400px;
+}
+#thehome .textbox h5 {
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  color: #676f8b;
+  line-height: 1.3;
+}
+#thehome .textbox .btn {
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#thehome .imgbox {
+  width: 520px;
+}
+
+#howitworks h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+  margin-bottom: 60px;
+}
+#howitworks .box .imgbox {
+  width: 350px;
+}
+#howitworks .box .textbox {
+  padding: 35px 55px;
+}
+#howitworks .box .textbox h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+#howitworks h4 {
+  font-size: 20px;
+  color: #676f8b;
+  line-height: 1.3;
+}
+
+#ourmenu .textbox {
+  width: 500px;
+  text-align: center;
+}
+#ourmenu .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #3cc1d8;
+}
+#ourmenu .textbox h4 {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #6c7480;
+  line-height: 1.2;
+}
+#ourmenu .textbox h4 span {
+  color: #3cc1d8;
+  text-decoration-line: underline;
+}
+#ourmenu .btn {
+  font-size: 18px;
+  border: 0.5px solid #bdbdbd;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+#ourmenu .bgc {
+  background-color: #3cc1d8;
+  color: white;
+}
+#ourmenu .box {
+  padding: 30px;
+}
+#ourmenu .box .imgbox {
+  width: 150px;
+  border-radius: 10px;
+}
+#ourmenu .box .textbox {
+  text-align: left;
+  width: auto;
+  margin-left: 20px;
+}
+#ourmenu .box .textbox .minibox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#ourmenu .box .textbox .minibox h5 {
+  color: #3cc1d8;
+  font-size: 18px;
+}
+#ourmenu .box .textbox p {
+  font-size: 18px;
+  margin: 15px 0;
+  line-height: 1.2;
+  color: rgba(35, 47, 66, 0.5215686275);
+}
+#ourmenu .box .textbox .add {
+  display: flex;
+}
+#ourmenu .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#ourmenu .box .textbox .add .btn {
+  background-color: #3cc1d8;
+  color: white;
+  padding: 7px 20px;
+}
+#ourmenu .big {
+  padding: 17px 53px;
+  margin-top: 50px;
+}
+
+#order .imgbox {
+  width: 600px;
+}
+#order .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+}
+#order .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#order .textbox .btn {
+  font-size: 20px;
+  background-color: #38b6c1;
+  color: white;
+  padding: 13px 34px;
+  border-radius: 5px;
+}
+
+#ourstore {
+  background-color: #f1f8f9;
+}
+#ourstore .textbox h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #36b3bd;
+}
+#ourstore .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#ourstore .textbox .btn {
+  padding: 13px 34px;
+  background-color: #38b6c1;
+  color: white;
+  font-size: 20px;
+}
+#ourstore .imgbox {
+  width: 520px;
+}
+
+#support .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  padding: 10px 30px;
+  background-color: white;
+  margin: 30px 0 0 40px;
+}
+#support .bgc {
+  background-color: #35b6c1;
+}/*# sourceMappingURL=style.css.map */
